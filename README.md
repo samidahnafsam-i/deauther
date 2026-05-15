@@ -29,7 +29,7 @@ Install the following tools before running:
 ### Kali Linux / Debian
 
 ```bash
-sudo apt update
+sudo apt update && upgrade
 sudo apt install aircrack-ng net-tools -y
 ```
 
@@ -53,7 +53,7 @@ chmod +x deauther.sh
 Run the script:
 
 ```bash
-sudo ./deauther.sh
+sudo bash deauther.sh
 ```
 
 ---
